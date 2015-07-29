@@ -1,0 +1,8 @@
+settings:
+    PreventWeatherChange: true
+    PreventCreeperExplosion: true
+    PreventEndermanPickup: true
+    SetTimeIntervall: 1000
+    homeOnRespawn: false
+    debug: true
+    useGraveyars: true

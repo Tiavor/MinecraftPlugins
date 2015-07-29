@@ -1,0 +1,147 @@
+name: TiaEssentials
+author: MG127
+main: de.mg127.TiaEssentials.TiaEssentials
+version: 1.7.2_R0.2_1
+database: false
+description: >
+             Essential commands and functions for 1.6.2
+
+permissions:
+    TiaEssentials.admin.config:
+        description: blub
+    TiaEssentials.admin.all:
+        description: blub
+    TiaEssentials.admin.item:
+        description: blub
+    TiaEssentials.admin.tp:
+        description: blub
+    TiaEssentials.admin.tph:
+        description: blub
+    TiaEssentials.admin.tpha:
+        description: blub
+    TiaEssentials.admin.tpa:
+        description: blub
+    TiaEssentials.admin.warp:
+        description: blub
+    TiaEssentials.admin.advancedWarp:
+        description: blub
+    TiaEssentials.admin.setwarp:
+        description: blub
+    TiaEssentials.admin.delwarp:
+        description: blub
+    TiaEssentials.admin.listwarps:
+        description: blub
+    TiaEssentials.admin.setspawn:
+        description: blub
+    TiaEssentials.admin.time:
+        description: blub
+    TiaEssentials.admin.advancedTime:
+        description: blub
+    TiaEssentials.admin.getid:
+        description: blub
+    TiaEssentials.admin.gamemode:
+        description: blub
+    TiaEssentials.user.all:
+        description: blub
+    TiaEssentials.user.tpa:
+        description: blub
+    TiaEssentials.user.spwan:
+        description: blub
+    TiaEssentials.user.sethome:
+        description: blub
+    TiaEssentials.user.advancedSethome:
+        description: blub
+    TiaEssentials.user.home:
+        description: blub
+    TiaEssentials.admin.tia:
+        description: blub
+    TiaEssentials.admin.thor:
+        description: blub
+    TiaEssentials.admin.itemset.save:
+        description: blub
+    TiaEssentials.admin.itemset.load:
+        description: blub
+    TiaEssentials.user.advancedHome:
+        description: blub
+    TiaEssentials.admin.graveyard:
+        description: blub
+    TiaEssentials.admin.clr:
+        description: blub
+    TiaEssentials.admin.whitelist:
+        description: blub
+    TiaEssentials.admin.biome:
+        description: blub
+     
+commands:
+   biome:
+        description: biome options
+   gamemode:
+        description: vanilla override
+   time:
+        description: vanilla override
+   whitelist:
+        description: vanilla override
+   ban:
+        description: vanilla override
+   op:
+        description: vanilla override
+   vote:
+        description: voting action
+   save:
+        description: alias for schematic save mcedit
+   tia:
+        description: config and admin commands, help for tiaessential commands
+   item:
+        description: give yourself or others some items
+        aliases: ['give']
+   tp:
+        description: teleport to target player
+   tpp:
+        description: teleport to target position
+        aliases: ['tppos']
+   tph:
+        description: teleport another player to you
+        aliases: ['tphere']
+   tpa:
+        description: ask someone for allowance to teleport to him; accept it
+        aliases: ['tpaccept', 'tpask']
+   tpha:
+        description: teleport all ppl on the server to you
+   warp:
+        description: teleport to a named spot
+        aliases: ['teleport']
+   setwarp:
+        description: create a named teleport spot
+   delwarp:
+        description: delete a named teleport spot
+        aliases: ['deletewarp']
+   listwarps:
+        description: list all warps
+        aliases: ['warps']
+   setspawn:
+        description: setspawn for THIS world
+   spawn:
+        description: teleport to the spawn of this world
+        aliases: ['respawn']
+   home:
+        description: teleport to your home or other players(admin)
+   sethome:
+        description: set your home or other players(admin)
+   delhome:
+        description: delete your home or other players(admin)
+   spawnmob:
+        description: spawns mobs in line of sight
+   me:
+        description: perform custom emotes
+   getid:
+        description: prints id and data value of target block
+   cla:
+        description: clears the whole inventory including armor
+   clb:
+        description: clears the backpack
+        aliases: ['clear']
+   clr:
+        description: clears the main inventory
+   graveyard:
+        description: add,remove,get graveyards
+        aliases: ['gy']

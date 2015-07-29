@@ -1,0 +1,13 @@
+name: Explorer2
+author: MG127
+main: de.mg127.Explorer2.Explorer2
+version: 1
+database: false
+description: >
+             To boldy go where ...
+
+commands:
+   expl:
+      description: /explore (radius) [round]
+      usage: |
+             /<command>
